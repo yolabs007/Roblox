@@ -1,0 +1,12 @@
+-- this code is  to fade a part 
+
+
+-- blue brikc is just a nme of variable, it coud be anything
+local bluebrick  = script.Parent
+
+for fade = 1,100,1 do
+	wait(0.4)
+	bluebrick.Transparency = 0.01*fade
+end
+
+
