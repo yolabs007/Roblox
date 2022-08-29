@@ -1,0 +1,13 @@
+-- this code is  to blink a block or to appear disapppear  
+-- written by rahul Sharma for YoLabs Roblox classes
+
+
+-- blue brick is just a name of variable, it could be anything
+local bluebrick  = script.Parent
+
+while true do
+	bluebrick.Transparency = 0
+	wait(1)
+	bluebrick.Transparency = 1
+	wait(1)	
+end
